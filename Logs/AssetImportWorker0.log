@@ -1,0 +1,326 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16170 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.18f1-x86_64\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/vinee/Unity_Cloud_Build
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51180
+Successfully changed project path to: C:/Users/vinee/Unity_Cloud_Build
+C:/Users/vinee/Unity_Cloud_Build
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17748] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 926532058 [EditorId] 926532058 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-URG39VAE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17748] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 926532058 [EditorId] 926532058 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-URG39VAE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 90.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1-x86_64/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/vinee/Unity_Cloud_Build/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   NVIDIA
+    VRAM:     3949 MB
+    Driver:   31.0.15.2802
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1-x86_64/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005568 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 96.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.797 seconds
+Domain Reload Profiling:
+	ReloadAssembly (797ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (546ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (135ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (311ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (97ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (150ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009177 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\vinee\Unity_Cloud_Build\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\vinee\Unity_Cloud_Build\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.306 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1307ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (999ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (386ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (393ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (256ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (113.5 KB). Loaded Objects now: 3508.
+Memory consumption went from 107.4 MB to 107.3 MB.
+Total: 3.091300 ms (FindLiveObjects: 0.253100 ms CreateObjectMapping: 0.190100 ms MarkObjects: 2.552000 ms  DeleteObjects: 0.095300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 795008.796091 seconds.
+  path: Assets/1. Auniati Satra
+  artifactKey: Guid(3f4c5afc8c6cf4e43bb56df4d13c9a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1. Auniati Satra using Guid(3f4c5afc8c6cf4e43bb56df4d13c9a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa001d06eb07b379defec285ec75108f') in 0.031572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040443 seconds.
+  path: Assets/1. Auniati Satra/10.10.JPG
+  artifactKey: Guid(a98b920940589074188f0aa9dd75ed4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1. Auniati Satra/10.10.JPG using Guid(a98b920940589074188f0aa9dd75ed4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbfe22d309e5f3c6dfa18242b9ba80b8') in 0.129435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/1. Auniati Satra/A10.7.JPG
+  artifactKey: Guid(5fb37405b2481834389a36363beb7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1. Auniati Satra/A10.7.JPG using Guid(5fb37405b2481834389a36363beb7b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6fc02aa1d03cccc03c056afb0c0fa1') in 0.019711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/1. Auniati Satra/A22.JPG
+  artifactKey: Guid(ad0a1b98671144c48af5e41bff73be4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1. Auniati Satra/A22.JPG using Guid(ad0a1b98671144c48af5e41bff73be4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d80c398600ad513b5c3a841c659c703') in 0.020204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/1. Auniati Satra/A12.JPG
+  artifactKey: Guid(1953222a39ec2b844b961dff51ff6d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1. Auniati Satra/A12.JPG using Guid(1953222a39ec2b844b961dff51ff6d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea007a1240bd0f7602734700bec64179') in 0.020359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/1. Auniati Satra/A36.JPG
+  artifactKey: Guid(305ca9d5b6aae414fb88442743ed77a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1. Auniati Satra/A36.JPG using Guid(305ca9d5b6aae414fb88442743ed77a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442dee43919ffd15134b1d5b62a3baae') in 0.025527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/1. Auniati Satra/A14.JPG
+  artifactKey: Guid(d9639614cc9d3cc4ea17c20fa27cff92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1. Auniati Satra/A14.JPG using Guid(d9639614cc9d3cc4ea17c20fa27cff92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10aef4ab4f6db4b279e50d4bbc01af9f') in 0.125084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/1. Auniati Satra/A21.JPG
+  artifactKey: Guid(c459d3c93842355428628e4713752c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1. Auniati Satra/A21.JPG using Guid(c459d3c93842355428628e4713752c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef783688e74757bcfeb058be12bed17') in 0.022613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/1. Auniati Satra/A11.JPG
+  artifactKey: Guid(6436df25e8465ec44b0fcdee1b0c619c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1. Auniati Satra/A11.JPG using Guid(6436df25e8465ec44b0fcdee1b0c619c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d8381c07deec872e3b6f53fcb202bc') in 0.027241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/1. Auniati Satra/A25.JPG
+  artifactKey: Guid(59d1edfaa618c7842b32ddf098dae623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1. Auniati Satra/A25.JPG using Guid(59d1edfaa618c7842b32ddf098dae623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4899da30e3f7ba0ff2d791e92f24b643') in 0.020797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/1. Auniati Satra/A32.JPG
+  artifactKey: Guid(acae940de4ae9b5449088d7e757f7a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1. Auniati Satra/A32.JPG using Guid(acae940de4ae9b5449088d7e757f7a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02a5140e50bed2301057617efa0f1dc') in 0.017680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/1. Auniati Satra/A5.JPG
+  artifactKey: Guid(b56a0aab9d1eafc48a6854598f4b0e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1. Auniati Satra/A5.JPG using Guid(b56a0aab9d1eafc48a6854598f4b0e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43cc72ed8e44e2321e7f92424110d80') in 0.023534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/1. Auniati Satra/A3.JPG
+  artifactKey: Guid(b30cc4ccacab39a4284e0a5282284c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1. Auniati Satra/A3.JPG using Guid(b30cc4ccacab39a4284e0a5282284c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9afb10ac85145014eaba342fd057a7') in 0.022957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/1. Auniati Satra/A23.JPG
+  artifactKey: Guid(dbe4d3b9a4d21e54d85eaa35701ff76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1. Auniati Satra/A23.JPG using Guid(dbe4d3b9a4d21e54d85eaa35701ff76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66232c69c014dfb4152cfa2ea85a21a') in 0.022569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/1. Auniati Satra/A31.JPG
+  artifactKey: Guid(cc99ce6c1c7b0334ab555194dbcbabbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1. Auniati Satra/A31.JPG using Guid(cc99ce6c1c7b0334ab555194dbcbabbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2838d0fafe989995c3372396e55c950d') in 0.031024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/1. Auniati Satra/A10.11.JPG
+  artifactKey: Guid(e6a9aaea61691c649af3c5954c2db433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1. Auniati Satra/A10.11.JPG using Guid(e6a9aaea61691c649af3c5954c2db433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9549276c3e5eff6074e4ee7f7539c4ce') in 0.020751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/1. Auniati Satra/A10.2.JPG
+  artifactKey: Guid(cdf8d14c1ed33064e926afb6b7b54e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1. Auniati Satra/A10.2.JPG using Guid(cdf8d14c1ed33064e926afb6b7b54e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5dfbd4b737ca346ac8390854e2edcf0') in 0.017133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/1. Auniati Satra/A26.JPG
+  artifactKey: Guid(178f5d2d0fc19a5409299b2776c4c0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1. Auniati Satra/A26.JPG using Guid(178f5d2d0fc19a5409299b2776c4c0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9591f0cd97ff7b6aa9b7906415d140') in 0.020533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/1. Auniati Satra/A7.JPG
+  artifactKey: Guid(561b51466ff0203499ef898575e912ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1. Auniati Satra/A7.JPG using Guid(561b51466ff0203499ef898575e912ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502efb9a64e095582830d01a05349be4') in 0.019117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/1. Auniati Satra/A8.JPG
+  artifactKey: Guid(9e95f322bd180cc4bb4368fcced2ba65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1. Auniati Satra/A8.JPG using Guid(9e95f322bd180cc4bb4368fcced2ba65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8671245c0899fd5946735c68d2f20a') in 0.025776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/1. Auniati Satra/A18.JPG
+  artifactKey: Guid(f4ad31acd16742443a0f4f7084b56468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1. Auniati Satra/A18.JPG using Guid(f4ad31acd16742443a0f4f7084b56468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e30558d0c4e5c920dc615dd51e20e44') in 0.022304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/1. Auniati Satra/A29.JPG
+  artifactKey: Guid(cd8bf713d36ef1b4ab0bf332389c2967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1. Auniati Satra/A29.JPG using Guid(cd8bf713d36ef1b4ab0bf332389c2967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e48bf25680c3300c871d854b699cc0') in 0.020929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/1. Auniati Satra/A13.JPG
+  artifactKey: Guid(b17f9560793935c4f93ad4617998d675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1. Auniati Satra/A13.JPG using Guid(b17f9560793935c4f93ad4617998d675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68273c904ae235bd1fb9fe041f9a0711') in 0.022928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/1. Auniati Satra/A9.JPG
+  artifactKey: Guid(6395f16dabef43a49b5dbe31fef5ee9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1. Auniati Satra/A9.JPG using Guid(6395f16dabef43a49b5dbe31fef5ee9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4e3e018c5dd7aabd19f8b7c97effc4') in 0.025448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/1. Auniati Satra/A15.JPG
+  artifactKey: Guid(e4a9a623c46b68846a70ca6026bcfadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1. Auniati Satra/A15.JPG using Guid(e4a9a623c46b68846a70ca6026bcfadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3caea624fd9db9c3d0330fe3a69ef5') in 0.019023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/1. Auniati Satra/A19.JPG
+  artifactKey: Guid(817ff60d426536c46b28012f179b4b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1. Auniati Satra/A19.JPG using Guid(817ff60d426536c46b28012f179b4b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361c69e212d399db2ca8e6aab1ed92d8') in 0.024531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/1. Auniati Satra/A4.JPG
+  artifactKey: Guid(f18f090a37c6f1447a3ce5daef5d6926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1. Auniati Satra/A4.JPG using Guid(f18f090a37c6f1447a3ce5daef5d6926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f258391ef7bd104bd589b0cabfb981c3') in 0.019382 seconds 
